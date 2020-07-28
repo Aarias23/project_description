@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+
+body {
+    padding-top: 20px;
+}
+
+.jumbotron {
+    border-radius: 30px;
+}
+
+.eteacher {
+    color: #2c3e50;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.fas {
+    color: #2c3e50;
+}
+
+.dot {
+    font-size: 7px;
+}
+
+.title {
+    font-family: 'Ubuntu', sans-serif;
+    text-align: center;
+}
+
+p {
+    color: black;
+    text-align: justify;
+}
+
+.modify {
+    text-align: center;
+}
+
+#about-us .carousel-indicators {
+    position: static;
+    padding-top: 30px;
+}
+
+#about-us .carousel-indicators li {
+    background-color: black;
+    width: 12px;
+    height: 12px;
+    margin-left: 5px;
+}
+
+.carousel-control-prev-icon {
+    background-image: url(../img/left-arrow.svg);
+    padding: 25px;
+}
+
+.carousel-control-next-icon {
+    background-image: url(../img/right-arrow.svg);
+    padding: 25px;
+}
+
+#about-us .carousel-control-next,
+#about-us .carousel-control-prev {
+    width: auto;
+}
+
+#about-us .carousel-control-next {
+    right: -35px;
+}
+
+#about-us .carousel-control-prev {
+    left: -35px;
+}
+
+#about-us h1 {
+    font-family: 'Ubuntu', sans-serif;
+    color: #2c3e50 !important;
+}
+
+/* @media */
+
+@media only screen and (max-width: 768px) {
+    .title {
+        font-size: 18px;
+    }
+
+    h1 {
+        font-size: 18px;
+        text-align: center;
+        text-transform: uppercase;
+    }
+
+    .text-secondary {
+        text-align: center;
+    }
+
+    .modify {
+        text-align: justify;
+    }
+
+    .text-dark {
+        text-transform: uppercase;
+    }
+
+    .carousel-control-prev-icon {
+        display: none;
+    }
+
+    .carousel-control-next-icon {
+        display: none;
+    }
+
+}
