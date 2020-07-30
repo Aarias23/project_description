@@ -77,6 +77,12 @@ p {
     color: #2c3e50 !important;
 }
 
+.card-header {
+    color: white;
+    background: black;
+    text-transform: uppercase;
+}
+
 /* @media */
 
 @media only screen and (max-width: 768px) {
